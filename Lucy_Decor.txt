@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang=\"en\">
+<head>
+    <meta charset=\"UTF-8\">
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+    <title>Lucy Decor</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #ffccdd, #ccffcc);
+            color: #333;
+        }
+        header {
+            background-color: #ff80aa;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #66cc66;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #55bb55;
+        }
+        .container {
+            padding: 20px;
+            margin-bottom: 60px;
+        }
+        .footer {
+            background-color: #ff80aa;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-btn {
+            display: inline-block;
+            background-color: #66cc66;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        .email-link {
+            color: #333;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Lucy Decor</h1>
+    <p>Transform Your Space Beautifully</p>
+</header>
+
+<nav>
+    <a href=\"#home\">Home</a>
+    <a href=\"#about\">About Us</a>
+    <a href=\"#services\">Services</a>
+    <a href=\"#gallery\">Gallery</a>
+    <a href=\"#contact\">Contact</a>
+</nav>
+
+<div class=\"container\">
+    <section id=\"home\">
+        <h2>Welcome to Lucy Decor!</h2>
+        <p>Your dream decoration awaits. At Lucy Decor, we specialize in creating personalized and elegant spaces that reflect your unique style and personality.</p>
+    </section>
+
+    <section id=\"about\">
+        <h2>About Us</h2>
+        <p>Lucy Decor is dedicated to bringing charm, warmth, and style into your home or event. Our skilled designers work closely with clients to ensure every detail is perfectly executed.</p>
+    </section>
+
+    <section id=\"services\">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Interior Home Decor</li>
+            <li>Event Decorations</li>
+            <li>Custom Floral Arrangements</li>
+            <li>Seasonal & Festive Decor</li>
+        </ul>
+    </section>
+
+    <section id=\"gallery\">
+        <h2>Gallery</h2>
+        <p>Explore our latest decor projects and inspiration (images coming soon!).</p>
+    </section>
+
+    <section id=\"contact\">
+        <h2>Contact Us</h2>
+        <p>Reach out directly to EH to discuss your decor needs:</p>
+        <a href=\"mailto:emu0409@gmail.com\" class=\"contact-btn\">Email EH</a>
+        <p>Or email directly: <a href=\"mailto:emu0409@gmail.com\" class=\"email-link\">emu0409@gmail.com</a></p>
+    </section>
+</div>
+
+<footer class=\"footer\">
+    © 2025 Lucy Decor. All Rights Reserved.
+</footer>
+
+</body>
+</html>
